@@ -215,7 +215,7 @@ String? validateMob(String? value) {
 String? validatePass(String? value) {
   if (value!.length == 0)
     return PWD_REQUIRED;
-  else if (value.length <= 5)
+  else if (value.length <= 7)
     return PWD_LENGTH;
   else
     return null;

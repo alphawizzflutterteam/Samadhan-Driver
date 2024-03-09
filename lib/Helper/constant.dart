@@ -105,7 +105,7 @@ const String REJECTED = 'Rejected';
 const String PREFER_DATE_TIME = 'Preferred Delivery Date/Time';
 
 const String PWD_REQUIRED = 'Password is Required';
-const String PWD_LENGTH = 'password should be more then 6 char long';
+const String PWD_LENGTH = 'password should be more then 8 char long';
 const String USER_REQUIRED = 'Username is Required';
 const String USER_LENGTH = 'Username should be 2 character long';
 const String MOB_REQUIRED = 'Mobile number required';

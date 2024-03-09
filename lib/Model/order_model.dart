@@ -27,7 +27,7 @@ class Order_Model {
       isAlrReturned,
       rtnReqSubmitted,
       activeStatus,
-       // otp,
+      // otp,
       deliveryBoyId,
       invoice,
       delDate,
@@ -131,7 +131,7 @@ class Order_Model {
         longitude: parsedJson[LONGITUDE],
         delDate: parsedJson[DEL_DATE] != null
             ? DateFormat('dd-MM-yyyy')
-            .format(DateTime.parse(parsedJson[DEL_DATE]))
+                .format(DateTime.parse(parsedJson[DEL_DATE]))
             : '',
         delTime: parsedJson[DEL_TIME] != null ? parsedJson[DEL_TIME] : '',
         deliveryBoyId: parsedJson[DELIVERY_BOY_ID]);
@@ -170,39 +170,39 @@ class OrderItem {
 
   OrderItem(
       {this.qty,
-        this.id,
-        this.name,
-        this.price,
-        this.subTotal,
-        this.status,
-        this.image,
-        this.varientId,
-        this.listDate,
-        this.listStatus,
-        this.isCancle,
-        this.isReturn,
-        this.isAlrReturned,
-        this.isAlrCancelled,
-        this.rtnReqSubmitted,
-        this.attr_name,
-        this.productId,
-        this.varient_values,
-        // this.item_otp,
-        this.curSelected,
-        this.sellerName,
-        this.storeName,
-        this.sellerMobileNumber,
-        this.sellerAddress,
-        this.storeLatitude,
-        this.storeLongitude,
-        this.storeImage});
+      this.id,
+      this.name,
+      this.price,
+      this.subTotal,
+      this.status,
+      this.image,
+      this.varientId,
+      this.listDate,
+      this.listStatus,
+      this.isCancle,
+      this.isReturn,
+      this.isAlrReturned,
+      this.isAlrCancelled,
+      this.rtnReqSubmitted,
+      this.attr_name,
+      this.productId,
+      this.varient_values,
+      // this.item_otp,
+      this.curSelected,
+      this.sellerName,
+      this.storeName,
+      this.sellerMobileNumber,
+      this.sellerAddress,
+      this.storeLatitude,
+      this.storeLongitude,
+      this.storeImage});
 
   factory OrderItem.fromJson(Map<String, dynamic> json) {
     List<String?> lStatus = [];
     List<String?> lDate = [];
 
     var allSttus = json[STATUS];
-    if(allSttus != null){
+    if (allSttus != null) {
       for (var curStatus in allSttus) {
         lStatus.add(curStatus[0]);
         lDate.add(curStatus[1]);
