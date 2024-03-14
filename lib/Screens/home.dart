@@ -809,7 +809,9 @@ class StateHome extends State<Home> with TickerProviderStateMixin {
                               const BorderRadius.all(Radius.circular(4.0))),
                       child: Text(
                         // "status here",
-                        capitalize(model.itemList![0].status!),
+                        model.itemList![0].status == 'shipped'
+                            ? 'Dispatch'
+                            : '${model.itemList![0].status!}',
                         style: const TextStyle(color: white),
                       ),
                     )

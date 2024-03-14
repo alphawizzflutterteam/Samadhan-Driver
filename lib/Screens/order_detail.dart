@@ -323,7 +323,10 @@ class StateOrder extends State<OrderDetail> with TickerProviderStateMixin {
                                                               String>(
                                                             value: st,
                                                             child: Text(
-                                                              capitalize(st),
+                                                              capitalize(st ==
+                                                                      'shipped'
+                                                                  ? 'Dispatch'
+                                                                  : st),
                                                               style: Theme.of(
                                                                       context)
                                                                   .textTheme
@@ -657,7 +660,8 @@ class StateOrder extends State<OrderDetail> with TickerProviderStateMixin {
                         .textTheme
                         .button!
                         .copyWith(color: lightBlack2)),
-                Text("${CUR_CURRENCY!} ${widget.model!.subTotal!}",
+                Text(
+                    "${CUR_CURRENCY!} ${(double.parse(widget.model!.subTotal.toString()) - double.parse(widget.model!.taxAmt.toString())).toStringAsFixed(2)}",
                     style: Theme.of(context)
                         .textTheme
                         .button!
@@ -688,7 +692,7 @@ class StateOrder extends State<OrderDetail> with TickerProviderStateMixin {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text("$TAXPER (${widget.model!.taxPer!}) :",
+                Text("$TAXPER :",
                     style: Theme.of(context)
                         .textTheme
                         .button!

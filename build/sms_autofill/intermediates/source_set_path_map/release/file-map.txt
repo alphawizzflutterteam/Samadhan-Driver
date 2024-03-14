@@ -1,0 +1,15 @@
+com.jaumard.smsautofill.sms_autofill-jetified-window-1.0.0-beta04-0 C:\Users\Alphawizz\.gradle\caches\transforms-3\30c9f9e36f76ec2d5a473df3d33e33ff\transformed\jetified-window-1.0.0-beta04\res
+com.jaumard.smsautofill.sms_autofill-jetified-window-java-1.0.0-beta04-1 C:\Users\Alphawizz\.gradle\caches\transforms-3\5f7f04b14475a5177c81c0aebd35a1c0\transformed\jetified-window-java-1.0.0-beta04\res
+com.jaumard.smsautofill.sms_autofill-jetified-play-services-basement-17.5.0-2 C:\Users\Alphawizz\.gradle\caches\transforms-3\64e990dc2f7b063d39995812875995e1\transformed\jetified-play-services-basement-17.5.0\res
+com.jaumard.smsautofill.sms_autofill-jetified-play-services-auth-19.2.0-3 C:\Users\Alphawizz\.gradle\caches\transforms-3\83dd35e30f5fc4a493ae0e11e7e9e4dc\transformed\jetified-play-services-auth-19.2.0\res
+com.jaumard.smsautofill.sms_autofill-jetified-play-services-base-17.5.0-4 C:\Users\Alphawizz\.gradle\caches\transforms-3\90121bdede7a96836cca444994e54917\transformed\jetified-play-services-base-17.5.0\res
+com.jaumard.smsautofill.sms_autofill-core-1.6.0-5 C:\Users\Alphawizz\.gradle\caches\transforms-3\9d13f608411ebd1b864ae55bb53a8fcc\transformed\core-1.6.0\res
+com.jaumard.smsautofill.sms_autofill-jetified-annotation-experimental-1.1.0-6 C:\Users\Alphawizz\.gradle\caches\transforms-3\eaa9ca6d8aeab4c8cbd4c273a15e4d4e\transformed\jetified-annotation-experimental-1.1.0\res
+com.jaumard.smsautofill.sms_autofill-main-7 C:\Users\Alphawizz\AppData\Local\Pub\Cache\hosted\pub.dev\sms_autofill-2.3.0\android\src\main\res
+com.jaumard.smsautofill.sms_autofill-release-8 C:\Users\Alphawizz\AppData\Local\Pub\Cache\hosted\pub.dev\sms_autofill-2.3.0\android\src\release\res
+com.jaumard.smsautofill.sms_autofill-pngs-9 C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\sms_autofill\generated\res\pngs\release
+com.jaumard.smsautofill.sms_autofill-resValues-10 C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\sms_autofill\generated\res\resValues\release
+com.jaumard.smsautofill.sms_autofill-rs-11 C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\sms_autofill\generated\res\rs\release
+com.jaumard.smsautofill.sms_autofill-mergeReleaseResources-12 C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\sms_autofill\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.jaumard.smsautofill.sms_autofill-mergeReleaseResources-13 C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\sms_autofill\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.jaumard.smsautofill.sms_autofill-merged_res-14 C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\sms_autofill\intermediates\merged_res\release

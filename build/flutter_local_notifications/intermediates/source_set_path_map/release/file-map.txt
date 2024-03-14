@@ -1,0 +1,13 @@
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-jetified-window-1.0.0-beta04-0 C:\Users\Alphawizz\.gradle\caches\transforms-3\30c9f9e36f76ec2d5a473df3d33e33ff\transformed\jetified-window-1.0.0-beta04\res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-jetified-window-java-1.0.0-beta04-1 C:\Users\Alphawizz\.gradle\caches\transforms-3\5f7f04b14475a5177c81c0aebd35a1c0\transformed\jetified-window-java-1.0.0-beta04\res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-core-1.6.0-2 C:\Users\Alphawizz\.gradle\caches\transforms-3\9d13f608411ebd1b864ae55bb53a8fcc\transformed\core-1.6.0\res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-media-1.1.0-3 C:\Users\Alphawizz\.gradle\caches\transforms-3\e0bb863ceab12c7091532401217586a0\transformed\media-1.1.0\res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-jetified-annotation-experimental-1.1.0-4 C:\Users\Alphawizz\.gradle\caches\transforms-3\eaa9ca6d8aeab4c8cbd4c273a15e4d4e\transformed\jetified-annotation-experimental-1.1.0\res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-main-5 C:\Users\Alphawizz\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_local_notifications-9.9.1\android\src\main\res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-release-6 C:\Users\Alphawizz\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_local_notifications-9.9.1\android\src\release\res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-pngs-7 C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\generated\res\pngs\release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-resValues-8 C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\generated\res\resValues\release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-rs-9 C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\generated\res\rs\release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-mergeReleaseResources-10 C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-mergeReleaseResources-11 C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-merged_res-12 C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_res\release

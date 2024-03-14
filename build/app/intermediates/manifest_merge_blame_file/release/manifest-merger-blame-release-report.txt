@@ -1,0 +1,595 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.samadhan.delivery_boy"
+4    android:versionCode="4"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="ANDROID.PERMISSION.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:5:22-77
+13    <uses-permission android:name="ANDROID.PERMISSION.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:6:5-80
+13-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+14-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:7:5-76
+14-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:7:22-74
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-68
+15-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-65
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+16-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-79
+16-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+17-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-77
+17-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:13:22-74
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-81
+18-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-78
+19    <uses-permission android:name="android.permission.VIBRATE" />
+19-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-66
+19-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-63
+20    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+20-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-81
+20-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-78
+21    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+21-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-79
+21-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:12:22-76
+22    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+22-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\7974d5869e00f107067ce42caa212710\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:26:5-82
+22-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\7974d5869e00f107067ce42caa212710\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:26:22-79
+23
+24    <permission
+24-->[androidx.core:core:1.10.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\631f381d8e2fde0c3103eb222706e76a\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+25        android:name="com.samadhan.delivery_boy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.10.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\631f381d8e2fde0c3103eb222706e76a\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.10.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\631f381d8e2fde0c3103eb222706e76a\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="com.samadhan.delivery_boy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.10.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\631f381d8e2fde0c3103eb222706e76a\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.10.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\631f381d8e2fde0c3103eb222706e76a\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+29
+30    <application
+30-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:9:4-53:19
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.10.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\631f381d8e2fde0c3103eb222706e76a\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:11:9-43
+33        android:label="Samadhaan Online_Driver"
+33-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:10:9-48
+34        android:requestLegacyExternalStorage="true"
+34-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:12:9-52
+35        android:usesCleartextTraffic="true" >
+35-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:13:8-43
+36        <meta-data
+36-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:14:8-17:53
+37            android:name="com.google.firebase.messaging.default_notification_icon"
+37-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:16:12-82
+38            android:resource="@mipmap/ic_launcher" />
+38-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:17:12-50
+39
+40        <activity
+40-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:18:9-47:20
+41            android:name="com.samadhan.delivery_boy.MainActivity"
+41-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:19:13-41
+42            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+42-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:22:13-163
+43            android:exported="true"
+43-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:24:13-36
+44            android:hardwareAccelerated="true"
+44-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:23:13-47
+45            android:launchMode="singleTop"
+45-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:20:13-43
+46            android:theme="@style/LaunchTheme"
+46-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:21:13-47
+47            android:windowSoftInputMode="adjustResize" >
+47-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:25:13-55
+48
+49            <!--
+50                 Specifies an Android theme to apply to this Activity as soon as
+51                 the Android process has started. This theme is visible to the user
+52                 while the Flutter UI initializes. After that, this theme continues
+53                 to determine the Window background behind the Flutter UI.
+54            -->
+55            <meta-data
+55-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:30:13-33:17
+56                android:name="io.flutter.embedding.android.NormalTheme"
+56-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:31:15-70
+57                android:resource="@style/NormalTheme" />
+57-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:32:15-52
+58            <!--
+59                 Displays an Android View that continues showing the launch screen
+60                 Drawable until Flutter paints its first frame, then this splash
+61                 screen fades out. A splash screen is useful to avoid any visual
+62                 gap between the end of Android's launch screen and the painting of
+63                 Flutter's first frame.
+64            -->
+65            <meta-data
+65-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:39:13-42:17
+66                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+66-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:40:15-79
+67                android:resource="@drawable/launch_background" />
+67-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:41:15-61
+68
+69            <intent-filter>
+69-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:43:13-46:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:44:17-68
+70-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:44:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:45:17-76
+72-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:45:27-74
+73            </intent-filter>
+74        </activity>
+75        <!--
+76             Don't delete the meta-data below.
+77             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+78        -->
+79        <meta-data
+79-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:50:9-52:33
+80            android:name="flutterEmbedding"
+80-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:51:13-44
+81            android:value="2" />
+81-->C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\android\app\src\main\AndroidManifest.xml:52:13-30
+82
+83        <service
+83-->[:firebase_auth] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:19
+84            android:name="com.google.firebase.components.ComponentDiscoveryService"
+84-->[:firebase_auth] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-89
+85            android:directBootAware="true"
+85-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\61473c6cc15feead9dbe39dfb5544604\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+86            android:exported="false" >
+86-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:68:13-37
+87            <meta-data
+87-->[:firebase_auth] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+88                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+88-->[:firebase_auth] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[:firebase_auth] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+90            <meta-data
+90-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-40:85
+91                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+91-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:39:17-128
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:40:17-82
+93            <meta-data
+93-->[:firebase_core] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+94                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+94-->[:firebase_core] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[:firebase_core] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:69:13-71:85
+97                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+97-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:70:17-109
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:71:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\7974d5869e00f107067ce42caa212710\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:57:13-59:85
+100                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+100-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\7974d5869e00f107067ce42caa212710\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:58:17-122
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\7974d5869e00f107067ce42caa212710\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:59:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\7974d5869e00f107067ce42caa212710\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:60:13-62:85
+103                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+103-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\7974d5869e00f107067ce42caa212710\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:61:17-119
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\7974d5869e00f107067ce42caa212710\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:62:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\cab6b0781102ca825d21199cafa9c4da\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+106                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+106-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\cab6b0781102ca825d21199cafa9c4da\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\cab6b0781102ca825d21199cafa9c4da\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\cf3ef58b75e94f82b248efeb7c337bc2\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+109                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+109-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\cf3ef58b75e94f82b248efeb7c337bc2\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\cf3ef58b75e94f82b248efeb7c337bc2\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\cf3ef58b75e94f82b248efeb7c337bc2\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+112                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+112-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\cf3ef58b75e94f82b248efeb7c337bc2\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\cf3ef58b75e94f82b248efeb7c337bc2\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\9d3f1e385b53e797febf446a80493ba3\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+115                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+115-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\9d3f1e385b53e797febf446a80493ba3\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\9d3f1e385b53e797febf446a80493ba3\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\61473c6cc15feead9dbe39dfb5544604\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+118                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+118-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\61473c6cc15feead9dbe39dfb5544604\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\61473c6cc15feead9dbe39dfb5544604\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Alphawizz\.gradle\caches\transforms-3\0fbaf4ae8a4754485f0376bd02295eb6\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+121                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+121-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Alphawizz\.gradle\caches\transforms-3\0fbaf4ae8a4754485f0376bd02295eb6\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Alphawizz\.gradle\caches\transforms-3\0fbaf4ae8a4754485f0376bd02295eb6\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+123        </service>
+124        <service
+124-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-19:72
+125            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+125-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-107
+126            android:exported="false"
+126-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-37
+127            android:permission="android.permission.BIND_JOB_SERVICE" />
+127-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-69
+128        <service
+128-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-26:19
+129            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+129-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-97
+130            android:exported="false" >
+130-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-37
+131            <intent-filter>
+131-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-25:29
+132                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+132-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:24:17-78
+132-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:24:25-75
+133            </intent-filter>
+134        </service>
+135
+136        <receiver
+136-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:28:9-35:20
+137            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+137-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-98
+138            android:exported="true"
+138-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-36
+139            android:permission="com.google.android.c2dm.permission.SEND" >
+139-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-73
+140            <intent-filter>
+140-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-34:29
+141                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+141-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:33:17-81
+141-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:33:25-78
+142            </intent-filter>
+143        </receiver>
+144
+145        <provider
+145-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:43:9-47:38
+146            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+146-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-102
+147            android:authorities="com.samadhan.delivery_boy.flutterfirebasemessaginginitprovider"
+147-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-88
+148            android:exported="false"
+148-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-37
+149            android:initOrder="99" />
+149-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-35
+150        <provider
+150-->[:image_picker_android] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+151            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+151-->[:image_picker_android] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-82
+152            android:authorities="com.samadhan.delivery_boy.flutter.image_provider"
+152-->[:image_picker_android] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-74
+153            android:exported="false"
+153-->[:image_picker_android] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+154            android:grantUriPermissions="true" >
+154-->[:image_picker_android] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+155            <meta-data
+155-->[:image_picker_android] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:75
+156                android:name="android.support.FILE_PROVIDER_PATHS"
+156-->[:image_picker_android] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-67
+157                android:resource="@xml/flutter_image_picker_file_paths" />
+157-->[:image_picker_android] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-72
+158        </provider>
+159
+160        <activity
+160-->[:url_launcher_android] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+161            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+161-->[:url_launcher_android] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+162            android:exported="false"
+162-->[:url_launcher_android] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+163            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+163-->[:url_launcher_android] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+164
+165        <receiver
+165-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-18:40
+166            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+166-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-97
+167            android:exported="false" />
+167-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-37
+168        <receiver
+168-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-28:20
+169            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+169-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-101
+170            android:exported="false" >
+170-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-37
+171            <intent-filter>
+171-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-27:29
+172                <action android:name="android.intent.action.BOOT_COMPLETED" />
+172-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:23:17-79
+172-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:23:25-76
+173                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+173-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:24:17-84
+173-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:24:25-81
+174                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+174-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:25:17-82
+174-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:25:25-79
+175                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+175-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:17-82
+175-->[:flutter_local_notifications] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:25-79
+176            </intent-filter>
+177        </receiver>
+178
+179        <activity
+179-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:29:9-46:20
+180            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+180-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:30:13-80
+181            android:excludeFromRecents="true"
+181-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:31:13-46
+182            android:exported="true"
+182-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:32:13-36
+183            android:launchMode="singleTask"
+183-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:33:13-44
+184            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+184-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:34:13-72
+185            <intent-filter>
+185-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:35:13-45:29
+186                <action android:name="android.intent.action.VIEW" />
+186-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
+186-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
+187
+188                <category android:name="android.intent.category.DEFAULT" />
+188-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+188-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+189                <category android:name="android.intent.category.BROWSABLE" />
+189-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+189-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+190
+191                <data
+191-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
+192                    android:host="firebase.auth"
+192-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
+193                    android:path="/"
+193-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
+194                    android:scheme="genericidp" />
+194-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
+195            </intent-filter>
+196        </activity>
+197        <activity
+197-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:47:9-64:20
+198            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+198-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:48:13-79
+199            android:excludeFromRecents="true"
+199-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:49:13-46
+200            android:exported="true"
+200-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:50:13-36
+201            android:launchMode="singleTask"
+201-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:51:13-44
+202            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+202-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:52:13-72
+203            <intent-filter>
+203-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:53:13-63:29
+204                <action android:name="android.intent.action.VIEW" />
+204-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
+204-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
+205
+206                <category android:name="android.intent.category.DEFAULT" />
+206-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+206-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+207                <category android:name="android.intent.category.BROWSABLE" />
+207-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+207-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+208
+209                <data
+209-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
+210                    android:host="firebase.auth"
+210-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
+211                    android:path="/"
+211-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
+212                    android:scheme="recaptcha" />
+212-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\34b5f1d07b2ede36dfbc69a3229eb70d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
+213            </intent-filter>
+214        </activity>
+215
+216        <receiver
+216-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\7974d5869e00f107067ce42caa212710\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:29:9-40:20
+217            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+217-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\7974d5869e00f107067ce42caa212710\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:30:13-78
+218            android:exported="true"
+218-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\7974d5869e00f107067ce42caa212710\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:31:13-36
+219            android:permission="com.google.android.c2dm.permission.SEND" >
+219-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\7974d5869e00f107067ce42caa212710\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:32:13-73
+220            <intent-filter>
+220-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-34:29
+221                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+221-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:33:17-81
+221-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:33:25-78
+222            </intent-filter>
+223
+224            <meta-data
+224-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\7974d5869e00f107067ce42caa212710\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:37:13-39:40
+225                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+225-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\7974d5869e00f107067ce42caa212710\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:38:17-92
+226                android:value="true" />
+226-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\7974d5869e00f107067ce42caa212710\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:39:17-37
+227        </receiver>
+228        <!--
+229             FirebaseMessagingService performs security checks at runtime,
+230             but set to not exported to explicitly avoid allowing another app to call it.
+231        -->
+232        <service
+232-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\7974d5869e00f107067ce42caa212710\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:46:9-53:19
+233            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+233-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\7974d5869e00f107067ce42caa212710\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:47:13-82
+234            android:directBootAware="true"
+234-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\7974d5869e00f107067ce42caa212710\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:48:13-43
+235            android:exported="false" >
+235-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\7974d5869e00f107067ce42caa212710\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:49:13-37
+236            <intent-filter android:priority="-500" >
+236-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-25:29
+237                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+237-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:24:17-78
+237-->[:firebase_messaging] C:\Users\Alphawizz\Documents\GitHub\Samadhan-Driver\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:24:25-75
+238            </intent-filter>
+239        </service>
+240
+241        <provider
+241-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\61473c6cc15feead9dbe39dfb5544604\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+242            android:name="com.google.firebase.provider.FirebaseInitProvider"
+242-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\61473c6cc15feead9dbe39dfb5544604\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+243            android:authorities="com.samadhan.delivery_boy.firebaseinitprovider"
+243-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\61473c6cc15feead9dbe39dfb5544604\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+244            android:directBootAware="true"
+244-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\61473c6cc15feead9dbe39dfb5544604\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+245            android:exported="false"
+245-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\61473c6cc15feead9dbe39dfb5544604\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+246            android:initOrder="100" />
+246-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\61473c6cc15feead9dbe39dfb5544604\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+247
+248        <activity
+248-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\83dd35e30f5fc4a493ae0e11e7e9e4dc\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:23:9-27:75
+249            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+249-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\83dd35e30f5fc4a493ae0e11e7e9e4dc\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:24:13-93
+250            android:excludeFromRecents="true"
+250-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\83dd35e30f5fc4a493ae0e11e7e9e4dc\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:25:13-46
+251            android:exported="false"
+251-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\83dd35e30f5fc4a493ae0e11e7e9e4dc\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:26:13-37
+252            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+252-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\83dd35e30f5fc4a493ae0e11e7e9e4dc\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:27:13-72
+253        <!--
+254            Service handling Google Sign-In user revocation. For apps that do not integrate with
+255            Google Sign-In, this service will never be started.
+256        -->
+257        <service
+257-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\83dd35e30f5fc4a493ae0e11e7e9e4dc\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:33:9-37:51
+258            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+258-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\83dd35e30f5fc4a493ae0e11e7e9e4dc\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:34:13-89
+259            android:exported="true"
+259-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\83dd35e30f5fc4a493ae0e11e7e9e4dc\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:35:13-36
+260            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+260-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\83dd35e30f5fc4a493ae0e11e7e9e4dc\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:36:13-107
+261            android:visibleToInstantApps="true" />
+261-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\83dd35e30f5fc4a493ae0e11e7e9e4dc\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:37:13-48
+262
+263        <activity
+263-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\b121b3b78989ee63d33a65614e3f7adb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+264            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+264-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\b121b3b78989ee63d33a65614e3f7adb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+265            android:exported="false"
+265-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\b121b3b78989ee63d33a65614e3f7adb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+266            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+266-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\b121b3b78989ee63d33a65614e3f7adb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+267
+268        <meta-data
+268-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\3794f8805813d716e1232c1d56f0ad65\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+269            android:name="com.google.android.gms.version"
+269-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\3794f8805813d716e1232c1d56f0ad65\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+270            android:value="@integer/google_play_services_version" />
+270-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\3794f8805813d716e1232c1d56f0ad65\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+271
+272        <uses-library
+272-->[androidx.window:window:1.0.0-beta04] C:\Users\Alphawizz\.gradle\caches\transforms-3\30c9f9e36f76ec2d5a473df3d33e33ff\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+273            android:name="androidx.window.extensions"
+273-->[androidx.window:window:1.0.0-beta04] C:\Users\Alphawizz\.gradle\caches\transforms-3\30c9f9e36f76ec2d5a473df3d33e33ff\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+274            android:required="false" />
+274-->[androidx.window:window:1.0.0-beta04] C:\Users\Alphawizz\.gradle\caches\transforms-3\30c9f9e36f76ec2d5a473df3d33e33ff\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+275        <uses-library
+275-->[androidx.window:window:1.0.0-beta04] C:\Users\Alphawizz\.gradle\caches\transforms-3\30c9f9e36f76ec2d5a473df3d33e33ff\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+276            android:name="androidx.window.sidecar"
+276-->[androidx.window:window:1.0.0-beta04] C:\Users\Alphawizz\.gradle\caches\transforms-3\30c9f9e36f76ec2d5a473df3d33e33ff\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+277            android:required="false" />
+277-->[androidx.window:window:1.0.0-beta04] C:\Users\Alphawizz\.gradle\caches\transforms-3\30c9f9e36f76ec2d5a473df3d33e33ff\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+278
+279        <provider
+279-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+280            android:name="androidx.startup.InitializationProvider"
+280-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
+281            android:authorities="com.samadhan.delivery_boy.androidx-startup"
+281-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
+282            android:exported="false" >
+282-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
+283            <meta-data
+283-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+284                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+284-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+285                android:value="androidx.startup" />
+285-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+286        </provider>
+287
+288        <receiver
+288-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+289            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+289-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+290            android:directBootAware="false"
+290-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+291            android:enabled="true"
+291-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+292            android:exported="true"
+292-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+293            android:permission="android.permission.DUMP" >
+293-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+294            <intent-filter>
+294-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+295                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+295-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+295-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+296            </intent-filter>
+297            <intent-filter>
+297-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+298                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+298-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+298-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+299            </intent-filter>
+300            <intent-filter>
+300-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+301                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+301-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+301-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+302            </intent-filter>
+303            <intent-filter>
+303-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+304                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+304-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+304-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\8ac7930c378dac19c472d0499dd02a20\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+305            </intent-filter>
+306        </receiver>
+307
+308        <service
+308-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\fe2bb45240fef6df53679a6bb4f51110\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+309            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+309-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\fe2bb45240fef6df53679a6bb4f51110\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+310            android:exported="false" >
+310-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\fe2bb45240fef6df53679a6bb4f51110\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+311            <meta-data
+311-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\fe2bb45240fef6df53679a6bb4f51110\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+312                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+312-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\fe2bb45240fef6df53679a6bb4f51110\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+313                android:value="cct" />
+313-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\fe2bb45240fef6df53679a6bb4f51110\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+314        </service>
+315        <service
+315-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\fe65d7f9ec2cb7d97cf4cb414e5d6df4\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+316            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+316-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\fe65d7f9ec2cb7d97cf4cb414e5d6df4\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+317            android:exported="false"
+317-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\fe65d7f9ec2cb7d97cf4cb414e5d6df4\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+318            android:permission="android.permission.BIND_JOB_SERVICE" >
+318-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\fe65d7f9ec2cb7d97cf4cb414e5d6df4\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+319        </service>
+320
+321        <receiver
+321-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\fe65d7f9ec2cb7d97cf4cb414e5d6df4\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+322            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+322-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\fe65d7f9ec2cb7d97cf4cb414e5d6df4\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+323            android:exported="false" />
+323-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\fe65d7f9ec2cb7d97cf4cb414e5d6df4\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+324    </application>
+325
+326</manifest>
